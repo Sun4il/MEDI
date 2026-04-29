@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+coverage/
+/package-lock.json
+
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.production.local
+**/.env.test.local
+
+backend/uploads/
+
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+import Card from "../../components/ui/Card";
+
+const Analytics = () => (
+  <div className="page page-card">
+    <section className="section">
+      <span className="eyebrow">Admin analytics</span>
+      <h1 className="page__title" style={{ fontSize: "2.2rem" }}>
+        Analytics
+      </h1>
+    </section>
+
+    <Card>
+      <p className="card__meta">Analytics placeholder.</p>
+    </Card>
+  </div>
+);
+
+export default Analytics;
